@@ -14,7 +14,7 @@ gcc -Wall display.c device.c -o display
 
 The display should work even after closing, you should be able to run a test, close check display, run another test (given you do not format the storage) and still have the previous run up.
 
-For simplciity: 
+For simplcity: 
 - Volume name maximum size - 63 single byte characters
 - File or directory name maximum size - 7 single byte characters
 - File or directory size - limited by available blocks
